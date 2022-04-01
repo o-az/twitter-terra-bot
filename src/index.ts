@@ -1,6 +1,6 @@
-import { postTweet, fetchCoingecko, fetchTop100Coingecko } from '@/api'
-import { CoinPrice, CoinData } from './api/types'
+import { postTweet, fetchTop100Coingecko } from '@/api'
 import { currency, currencyCompact } from '@/utils'
+import type { CoinData } from './api/types'
 
 const getRecords = (records: CoinData[]): CoinData[] => {
   const symbols = ['ust', 'luna']
