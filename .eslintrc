@@ -1,0 +1,34 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": false
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "array-element-newline": [
+      "error",
+      "never"
+    ],
+    "array-bracket-newline": [
+      "never"
+    ],
+    "no-mixed-operators": "off",
+    "no-multiple-empty-lines": "off",
+    "no-unexpected-multiline": "off",
+    "no-whitespace-before-property": "off"
+  }
+}

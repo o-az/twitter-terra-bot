@@ -1,0 +1,28 @@
+{
+  "name": "terra-market-cap",
+  "version": "0.0.0",
+  "description": "Terra Ecosystem Market Cap",
+  "scripts": {
+    "start": "node build/src/main.js",
+    "ts:node": "ts-node --skip-project -T -r tsconfig-paths/register $npm_config_path"
+  },
+  "author": "Anon",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "oauth-1.0a": "^2.2.6"
+  },
+  "devDependencies": {
+    "typescript": "~4.6.2",
+    "tsconfig-paths": "^3.13.0",
+    "@swc/core": "^1.2.155",
+    "@swc/cli": "^0.1.55",
+    "@types/node": "~17.0.21",
+    "dotenv": "^16.0.0",
+    "dotenv-cli": "^5.0.0",
+    "eslint": "~8.11.0",
+    "eslint-config-prettier": "~8.5.0",
+    "prettier": "~2.5.1",
+    "@typescript-eslint/eslint-plugin": "~5.14.0",
+    "@typescript-eslint/parser": "~5.14.0"
+  }
+}
